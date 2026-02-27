@@ -1,0 +1,132 @@
+<div id="career-interactive-map" style="font-family: 'PingFang TC', 'Microsoft JhengHei', sans-serif; background: #fdfdfd; padding: 40px 10px; color: #333; max-width: 1000px; margin: auto; text-align: center;">
+    
+    <h2 style="color: #1a5a96; font-size: 26px; margin-bottom: 10px; font-weight: bold;">未來產業人才領域地圖</h2>
+    <p style="color: #888; margin-bottom: 40px; font-size: 15px;">點擊下方可愛圖示，探索各領域學類與 99 個未來新興職務</p>
+
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; padding: 0 10px;">
+        
+        <div onclick="openCareerModal('d1')" style="cursor: pointer; width: 130px; transition: 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
+            <div style="width: 110px; height: 110px; background: white; border-radius: 50%; border: 3px solid #ff7e7e; display: flex; align-items: center; justify-content: center; margin: 0 auto 12px; box-shadow: 0 6px 15px rgba(255,126,126,0.25);">
+                <svg viewBox="0 0 100 100" width="70" height="70"><path fill="#ff7e7e" d="M50 20c-13.8 0-25 11.2-25 25 0 8.4 4.1 15.8 10.4 20.4V75h29.2v-9.6c6.3-4.6 10.4-12 10.4-20.4 0-13.8-11.2-25-25-25z"/><circle cx="50" cy="45" r="10" fill="white"/><text x="50" y="49" fill="#ff7e7e" font-size="10" font-weight="bold" text-anchor="middle">AI</text><path fill="none" stroke="#ff7e7e" stroke-width="3" d="M35 75h30v5H35zM40 85h20v3H40z"/></svg>
+            </div>
+            <strong style="color: #ff7e7e; font-size: 16px;">教育</strong>
+        </div>
+
+        <div onclick="openCareerModal('d2')" style="cursor: pointer; width: 130px; transition: 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
+            <div style="width: 110px; height: 110px; background: white; border-radius: 50%; border: 3px solid #64b5f6; display: flex; align-items: center; justify-content: center; margin: 0 auto 12px; box-shadow: 0 6px 15px rgba(100,181,246,0.25);">
+                <svg viewBox="0 0 100 100" width="70" height="70"><circle cx="50" cy="50" r="30" fill="none" stroke="#64b5f6" stroke-width="4"/><path fill="#64b5f6" d="M35 35h10v10H35zM55 35h10v10H55zM35 55h10v10H35zM55 55h10v10H55z"/><rect x="45" y="45" width="10" height="10" fill="#ff7e7e"/></svg>
+            </div>
+            <strong style="color: #1e88e5; font-size: 16px;">藝術</strong>
+        </div>
+
+        <div onclick="openCareerModal('d3')" style="cursor: pointer; width: 130px; transition: 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
+            <div style="width: 110px; height: 110px; background: white; border-radius: 50%; border: 3px solid #4db6ac; display: flex; align-items: center; justify-content: center; margin: 0 auto 12px; box-shadow: 0 6px 15px rgba(77,182,172,0.25);">
+                <svg viewBox="0 0 100 100" width="70" height="70"><path fill="#4db6ac" d="M50 20c-15 0-25 10-25 25 0 10 5 18 15 22v10h20V67c10-4 15-12 15-22 0-15-10-25-25-25z"/><circle cx="40" cy="40" r="4" fill="white"/><path fill="orange" d="M70 40c5 0 10 5 10 10s-5 10-10 10h-5V40h5z"/></svg>
+            </div>
+            <strong style="color: #00897b; font-size: 16px;">人文語文</strong>
+        </div>
+
+        <div onclick="openCareerModal('d4')" style="cursor: pointer; width: 130px; transition: 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
+            <div style="width: 110px; height: 110px; background: white; border-radius: 50%; border: 3px solid #ffb74d; display: flex; align-items: center; justify-content: center; margin: 0 auto 12px; box-shadow: 0 6px 15px rgba(255,183,77,0.25);">
+                <svg viewBox="0 0 100 100" width="70" height="70"><circle cx="50" cy="40" r="15" fill="#ffb74d"/><path fill="#ffb74d" d="M25 75c0-12 10-20 25-20s25 8 25 20v5H25v-5z"/><rect x="45" y="55" width="10" height="5" fill="white"/></svg>
+            </div>
+            <strong style="color: #f57c00; font-size: 16px;">社會科學</strong>
+        </div>
+
+        <div onclick="openCareerModal('d5')" style="cursor: pointer; width: 130px; transition: 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
+            <div style="width: 110px; height: 110px; background: white; border-radius: 50%; border: 3px solid #9575cd; display: flex; align-items: center; justify-content: center; margin: 0 auto 12px; box-shadow: 0 6px 15px rgba(149,117,205,0.25);">
+                <svg viewBox="0 0 100 100" width="70" height="70"><path fill="#ff4d4d" d="M40 30l20 40h-10l-20-40z"/><path fill="#9575cd" d="M60 30l-20 40h10l20-40z"/><circle cx="45" cy="40" r="5" fill="#9575cd"/><circle cx="55" cy="60" r="5" fill="#ff4d4d"/></svg>
+            </div>
+            <strong style="color: #673ab7; font-size: 16px;">自然科學</strong>
+        </div>
+
+        <div onclick="openCareerModal('d6')" style="cursor: pointer; width: 130px; transition: 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
+            <div style="width: 110px; height: 110px; background: white; border-radius: 50%; border: 3px solid #ffd54f; display: flex; align-items: center; justify-content: center; margin: 0 auto 12px; box-shadow: 0 6px 15px rgba(255,213,79,0.25);">
+                <svg viewBox="0 0 100 100" width="70" height="70"><path fill="#333" d="M50 20c10 0 18 8 18 18s-8 18-18 18-18-8-18-18 8-18 18-18z"/><path fill="gold" d="M30 40l-10 10h20zM70 40l10 10h-20z"/><rect x="48" y="55" width="4" height="20" fill="gold"/></svg>
+            </div>
+            <strong style="color: #fbc02d; font-size: 16px;">商管法律</strong>
+        </div>
+
+        <div onclick="openCareerModal('d7')" style="cursor: pointer; width: 130px; transition: 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
+            <div style="width: 110px; height: 110px; background: white; border-radius: 50%; border: 3px solid #4fc3f7; display: flex; align-items: center; justify-content: center; margin: 0 auto 12px; box-shadow: 0 6px 15px rgba(79,195,247,0.25);">
+                <svg viewBox="0 0 100 100" width="70" height="70"><rect x="20" y="30" width="60" height="40" rx="5" fill="#4fc3f7"/><circle cx="50" cy="50" r="10" fill="white"/><circle cx="60" cy="60" r="5" fill="#ff7e7e"/></svg>
+            </div>
+            <strong style="color: #0288d1; font-size: 16px;">資訊通訊</strong>
+        </div>
+
+        <div onclick="openCareerModal('d8')" style="cursor: pointer; width: 130px; transition: 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
+            <div style="width: 110px; height: 110px; background: white; border-radius: 50%; border: 3px solid #90a4ae; display: flex; align-items: center; justify-content: center; margin: 0 auto 12px; box-shadow: 0 6px 15px rgba(144,164,174,0.25);">
+                <svg viewBox="0 0 100 100" width="70" height="70"><path fill="#333" d="M25 60h50l-5-15h-40z"/><circle cx="35" cy="65" r="7" fill="#ff7e7e"/><circle cx="65" cy="65" r="7" fill="#ff7e7e"/><path d="M45 35h10v5h-10z" fill="#90a4ae"/></svg>
+            </div>
+            <strong style="color: #455a64; font-size: 16px;">工程製造</strong>
+        </div>
+
+        <div onclick="openCareerModal('d9')" style="cursor: pointer; width: 130px; transition: 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
+            <div style="width: 110px; height: 110px; background: white; border-radius: 50%; border: 3px solid #81c784; display: flex; align-items: center; justify-content: center; margin: 0 auto 12px; box-shadow: 0 6px 15px rgba(129,199,132,0.25);">
+                <svg viewBox="0 0 100 100" width="70" height="70"><path fill="#ff7e7e" d="M30 60c10-20 30-20 40 0H30z"/><path fill="#81c784" d="M50 30c0 15 15 25 15 25s-15-5-15-25c0 20-15 25-15 25s15-10 15-25z"/></svg>
+            </div>
+            <strong style="color: #388e3c; font-size: 16px;">農林漁牧</strong>
+        </div>
+
+        <div onclick="openCareerModal('d10')" style="cursor: pointer; width: 130px; transition: 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
+            <div style="width: 110px; height: 110px; background: white; border-radius: 50%; border: 3px solid #ff8a65; display: flex; align-items: center; justify-content: center; margin: 0 auto 12px; box-shadow: 0 6px 15px rgba(255,138,101,0.25);">
+                <svg viewBox="0 0 100 100" width="70" height="70"><circle cx="40" cy="35" r="8" fill="#333"/><circle cx="60" cy="35" r="8" fill="#333"/><path d="M30 70c0-10 5-15 10-15s10 5 10 15h-20zM50 70c0-10 5-15 10-15s10 5 10 15h-20z" fill="#333"/><rect x="49" y="55" width="2" height="20" fill="red"/></svg>
+            </div>
+            <strong style="color: #e64a19; font-size: 16px;">醫藥衛福</strong>
+        </div>
+
+        <div onclick="openCareerModal('d11')" style="cursor: pointer; width: 130px; transition: 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
+            <div style="width: 110px; height: 110px; background: white; border-radius: 50%; border: 3px solid #f06292; display: flex; align-items: center; justify-content: center; margin: 0 auto 12px; box-shadow: 0 6px 15px rgba(240,98,146,0.25);">
+                <svg viewBox="0 0 100 100" width="70" height="70"><path d="M25 40h50v30H25z" fill="#333"/><rect x="40" y="30" width="20" height="10" fill="#f06292"/><circle cx="35" cy="75" r="5" fill="orange"/><circle cx="65" cy="75" r="5" fill="orange"/></svg>
+            </div>
+            <strong style="color: #c2185b; font-size: 16px;">服務</strong>
+        </div>
+    </div>
+
+    <div id="career-modal-overlay" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.7); z-index:99999; justify-content:center; align-items:center; padding: 20px; box-sizing: border-box;">
+        <div style="background:white; width:100%; max-width:750px; border-radius:20px; position:relative; overflow:hidden; box-shadow: 0 15px 40px rgba(0,0,0,0.4);">
+            <div id="modal-header-bg" style="padding: 25px; text-align: left; color: white;">
+                <h2 id="modal-title" style="margin: 0; font-size: 24px;">領域標題</h2>
+                <span onclick="closeCareerModal()" style="position:absolute; top:20px; right:25px; font-size:35px; cursor:pointer; line-height: 0.8;">&times;</span>
+            </div>
+            <div style="padding: 30px; max-height: 70vh; overflow-y: auto; text-align: left;">
+                <h4 style="margin-top: 0; color: #555; border-left: 5px solid #ddd; padding-left: 10px;">🎓 相關學類</h4>
+                <p id="modal-academics" style="line-height: 1.6; color: #666; font-size: 15px; margin-bottom: 25px;"></p>
+                
+                <h4 style="color: #555; border-left: 5px solid #ddd; padding-left: 10px;">🚀 未來職務 (精選 9 個)</h4>
+                <div id="modal-jobs" style="line-height: 1.8; color: #333; font-size: 15px;"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const careerData = {
+            d1: { title: "領域 1：教育", color: "#ff7e7e", academics: "教育學、成人教育、特殊教育、教育行政、課程與教學、教育科技、教育測驗評量、技職教育、幼兒師資教育、普通科目師資教育、專業科目師資教育 [cite: 668-693]", jobs: "1. AI教學設計師 [cite: 697]<br>2. 虛擬／混合實境教育專家 [cite: 700]<br>3. 教學資料科學家 [cite: 703]<br>4. STEAM教育專家 [cite: 708]<br>5. 特殊教育與神經多樣性專家 [cite: 711]<br>6. 永續與戶外教育講師 [cite: 714]<br>7. 企業人才發展顧問 [cite: 719]<br>8. 數位內容創作者／知識IP [cite: 722]<br>9. 教育公益與政策專案經理 [cite: 725]" },
+            d2: { title: "領域 2：藝術", color: "#64b5f6", academics: "視覺藝術、視覺傳達設計、應用藝術、綜合設計、產品設計、空間設計、時尚設計與管理、純藝術、雕塑、美術工藝、民俗藝術、音樂、表演藝術、綜合藝術、藝術行政 [cite: 732-766]", jobs: "1. 生成式AI藝術指導 [cite: 771]<br>2. 沉浸式XR體驗架構師 [cite: 774]<br>3. 元宇宙與數位分身設計師 [cite: 777]<br>4. 循環時尚與生技材質設計師 [cite: 782]<br>5. 智慧人居與感官體驗設計師 [cite: 785]<br>6. 傳統工藝數位轉譯師 [cite: 788]<br>7. 虛擬偶像與數位展演製作人 [cite: 793]<br>8. 藝術IP授權與Web3策略師 [cite: 796]<br>9. 互動敘事與遊戲化策展人 [cite: 799]" },
+            d3: { title: "領域 3：人文與語文", color: "#4db6ac", academics: "宗教、歷史、人類學及民族學、文獻學、哲學、外國語文、翻譯、華語文為第二語言、台灣語文、中國語文、華語文 [cite: 530-555]", jobs: "1. AI語言模型訓練師與文化校準師 [cite: 560]<br>2. 人機互動對話設計師 [cite: 563]<br>3. 跨文化本地化策略經理 [cite: 566]<br>4. 互動敘事與世界觀架構師 [cite: 571]<br>5. 數位文化遺產策展人 [cite: 574]<br>6. 文化IP授權與轉譯經理 [cite: 577]<br>7. AI倫理與合規官 [cite: 582]<br>8. 商業人類學家／使用者研究員 [cite: 585]<br>9. 靈性健康與生命設計師 [cite: 588]" },
+            d4: { title: "領域 4：社會科學、新聞學與圖資", color: "#ffb74d", academics: "經濟學、政治學、國際關係、心理學、社會學、地理學、區域研究、發展研究、大眾傳播、新聞、電子媒體、傳播、博物館、圖書資訊檔案 [cite: 595-628]", jobs: "1. 資訊韌性與事實查核架構師 [cite: 633]<br>2. AI知識圖譜策展人 [cite: 636]<br>3. 數據敘事與視覺化記者 [cite: 639]<br>4. 數位行為與UX心理學家 [cite: 644]<br>5. DEI策略長 [cite: 647]<br>6. 高齡社會創新設計師 [cite: 650]<br>7. 地緣科技風險分析師 [cite: 655]<br>8. 永續金融與碳權經濟學家 [cite: 658]<br>9. 城市數位治理顧問 [cite: 661]" },
+            d5: { title: "領域 5：自然科學、數學及統計", color: "#9575cd", academics: "生物學、生物科技、微生物、生物化學、生物訊息及遺傳、營養學、環境資源、生態、化學、地球科學及環境、大氣及太空科學、海洋科學、物理及應用物理、天文、數學、統計學 [cite: 369-415]", jobs: "1. AI藥物研發與基因數據科學家 [cite: 420]<br>2. 合成生物學與仿生設計師 [cite: 423]<br>3. 精準營養與微生態顧問 [cite: 426]<br>4. 碳捕捉利用與封存 (CCUS) 工程師 [cite: 431]<br>5. 氣候風險與地質數據分析師 [cite: 434]<br>6. 綠色能源與先進電池科學家 [cite: 437]<br>7. 量子演算法與加密研究員 [cite: 442]<br>8. 太空商業數據分析師 [cite: 445]<br>9. 演算法稽核與數據信任架構師 [cite: 448]" },
+            d6: { title: "領域 6：商業、管理及法律", color: "#ffd54f", academics: "會計及稅務、財務金融、財政、保險及風險管理、企業管理、流通及供應鏈、醫療管理、公共行政、國際貿易、公共關係、行銷及廣告、批發及零售、法律 [cite: 455-490]", jobs: "1. 碳權會計與永續審計師 [cite: 495]<br>2. DeFi策略與加密資產分析師 [cite: 498]<br>3. 保險科技與演算法精算師 [cite: 501]<br>4. 供應鏈韌性與風險架構師 [cite: 506]<br>5. MarTech行銷科技與成長駭客 [cite: 509]<br>6. 組織與人才數據分析師 [cite: 512]<br>7. AI法律工程師與合規官 [cite: 517]<br>8. 數據隱私與資安法務長 [cite: 520]<br>9. 數位資產與智財權策略師 [cite: 523]" },
+            d7: { title: "領域 7：資訊通訊科技", color: "#4fc3f7", academics: "電腦運用、資料庫、網路設計及管理、資訊技術、軟體開發、系統設計、電算機應用 [cite: 220-233]", jobs: "1. 生成式AI應用工程師 [cite: 238]<br>2. MLOps與AI可靠性工程師 [cite: 241]<br>3. 邊緣AI與物聯網架構師 [cite: 244]<br>4. 雲原生與平台工程師 [cite: 249]<br>5. DevSecOps與零信任架構師 [cite: 252]<br>6. 後量子密碼學專家 [cite: 255]<br>7. 空間運算與XR開發者 [cite: 260]<br>8. 數位孿生與工業元宇宙工程師 [cite: 263]<br>9. Web3與智能合約審計師 [cite: 266]" },
+            d8: { title: "領域 8：工程、製造及營建", color: "#90a4ae", academics: "化學工程、材料工程、環境工程、河海工程、電機與電子工程、機械工程、車輛工程、航空工程、工業工程、生醫工程、建築、都巿規劃、土木工程 [cite: 273-329]", jobs: "1. AI晶片與先進封裝架構師 [cite: 334]<br>2. 數位孿生與工業AI工程師 [cite: 337]<br>3. 人機協作機器人系統整合師 [cite: 340]<br>4. 淨零建築與生成式設計專家 [cite: 345]<br>5. 氫能與次世代儲能工程師 [cite: 348]<br>6. 碳捕捉 (CCUS) 與資源循環工程師 [cite: 351]<br>7. 軟體定義車輛 (SDV) 開發工程師 [cite: 356]<br>8. 精準發酵與未來食品科技學家 [cite: 359]<br>9. 生物列印與組織工程專家 [cite: 362]" },
+            d9: { title: "領域 9：農業、林漁業及獸醫", color: "#81c784", academics: "農作物生產、畜牧生產、園藝、農業化學、農業生物技術、農業經濟及推廣、植物保護、林業、漁業科學、水產養殖、獸醫 [cite: 77-103]", jobs: "1. AI智慧農耕與無人機架構師 [cite: 108]<br>2. 未來食品與替代蛋白設計師 [cite: 111]<br>3. 氣候韌性作物育種學家 [cite: 114]<br>4. 碳農法與自然碳匯顧問 [cite: 119]<br>5. 藍碳工程師與海洋生態復育師 [cite: 122]<br>6. 森林療癒與綠色照護規劃師 [cite: 125]<br>7. AI精準獸醫與遠距醫療專家 [cite: 130]<br>8. 生物安全與人畜共通病防護官 [cite: 133]<br>9. 寵物營養與功能性基因體專家 [cite: 136]" },
+            d10: { title: "領域 10：醫藥衛生及社會福利", color: "#ff8a65", academics: "牙醫、醫學、護理及助產、醫學技術及檢驗、物理治療、職能治療、藥學、傳統醫學、公共衛生、老年照顧服務、社會工作 [cite: 143-180]", jobs: "1. AI臨床決策與影像數據師 [cite: 185]<br>2. 基因編輯與RNA療法研發員 [cite: 188]<br>3. 數位孿生與虛擬器官工程師 [cite: 191]<br>4. 腦機介面 (BCI) 與神經復健師 [cite: 196]<br>5. 遠距醫療與物聯網護理師 [cite: 199]<br>6. 高齡環境與輔具科技規劃師 [cite: 202]<br>7. 數位心理健康與數位療法處方師 [cite: 207]<br>8. 醫療ESG與永續影響力管理師 [cite: 210]<br>9. 社會處方箋與社區健康設計師 [cite: 213]" },
+            d11: { title: "領域 11：服務", color: "#f06292", academics: "家政服務、美髮美容服務、旅館及餐飲、競技運動、運動科技、旅遊觀光、遊憩運動和休閒管理、職業衛生及安全、警政、運輸管理 [cite: 5-37]", jobs: "1. 沉浸式體驗策展師 [cite: 42]<br>2. 精準美學與全齡健康管家 [cite: 45]<br>3. AI運動科學與電競分析師 [cite: 48]<br>4. MaaS移動服務架構師 [cite: 53]<br>5. 低空經濟與無人機物流調度師 [cite: 56]<br>6. 綠色航運與永續供應鏈經理 [cite: 59]<br>7. 數位鑑識與犯罪預測分析師 [cite: 64]<br>8. AI職業安全與人因工程師 [cite: 67]<br>9. 智慧防災與韌性城市規劃師 [cite: 70]" }
+        };
+
+        function openCareerModal(id) {
+            const data = careerData[id];
+            document.getElementById('modal-title').innerText = data.title;
+            document.getElementById('modal-header-bg').style.background = data.color;
+            document.getElementById('modal-academics').innerText = data.academics;
+            document.getElementById('modal-jobs').innerHTML = data.jobs;
+            document.getElementById('career-modal-overlay').style.display = 'flex';
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeCareerModal() {
+            document.getElementById('career-modal-overlay').style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+    </script>
+</div>
